@@ -12,15 +12,15 @@
 :root{
     --pink: #A38D99;
     --light-pink: #d3b7c6;
-    --blue: #545A6B;
+    --blue: #23272E;
     --font1: Italiana;
     --font2: Inria;
     --font3: Inter;
 }
 .main-container{
     width: 100%;
-    height: 100vh;
-    background-image: url(assets/imgs/pexels-eberhardgross-572897.jpg);
+    height: 70vh;
+    background: linear-gradient(to top, rgb(84, 90, 107, 0.7), rgb(41, 45, 54, 0.7)),  url(assets/imgs/pexels-satoshi-4058530.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -90,35 +90,87 @@ nav .login i{
 }
 
 .hero{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 80vh;
-    font-size: 35px;
+    padding: 100px;
+
+}
+
+.hero h1{
     font-family: var(--font1);
     color: #FFFFFF;
+    font-size: 50px;
 }
 
-.hero button{
-    padding: 15px 40px;
-    border: none;
-    outline: none;
-    background-color: var(--blue);
-    border-radius: 13px;
-    cursor: pointer;
-    margin-top: 25px;
-    font-size: 15px;
-    color: #FFFFFF;
-}
-
-.hero span{
+span{
     color: var(--light-pink);
 }
 
-.about-container{
-    width: 100%;
-    height: 100vh;
+.hero .sentence{
+    font-family: var(--font3);
+    color: var(--light-pink);
+    padding-top: 8px;
+    font-size: 25px;
+}
+
+.search-bar{padding-top: 20px;}
+.search-bar input, .search-bar button{
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: var(--light-pink);
+    border-radius: 13px;
+    font-size: 15px;
+    font-family: var(--font3);
+    
+}
+.search-bar button{
     background-color: var(--blue);
+    color: #A38D99;
+}
+
+.gradient{
+    background: linear-gradient(to top, rgb(84, 90, 107), rgb(41, 45, 54));
+    margin-top: 50px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+    border-radius: 13px;
+}
+
+.columns{
+    display: flex;
+    padding: 40px;
+
+}
+.columns h2{
+    color: #FFFFFF;
+    font-family: var(--font1);
+}
+
+.columns p{
+    font-family: var(--font3);
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+.popular-flights{
+    padding: 100px;
+    padding-top: 150px;
+    background-color: var(--blue);
+}
+
+.popular-flights h1{
+    color: #FFFFFF;
+    font-family: var(--font1);
+    font-size: 50px;
+}
+
+.popular-flights p{
+    color: var(--light-pink);
+    padding-top: 20px;
+    font-family: var(--font3);
+    font-size: 25px;
+}
+
+.popular-flights-imgs{
+    display: inline-block;
 }
