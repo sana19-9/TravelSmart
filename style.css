@@ -94,10 +94,11 @@ nav .login i{
 .dropdown-content {
     display: none;
     position: absolute;
-    background: linear-gradient(to top, rgb(84, 90, 107, 0.7), rgb(41, 45, 54, 0.7));
+    background: linear-gradient(to top, rgb(84, 90, 107, 0.9), rgb(41, 45, 54, 0.9));
     min-width: 200px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 3;
+    border-radius: 13px;
 }
 
 /* Dropdown Links */
@@ -126,11 +127,12 @@ nav .login i{
 .sub-dropdown-content {
     display: none;
     position: absolute;
-    background: linear-gradient(to top, rgb(84, 90, 107, 1), rgb(41, 45, 54, 1));
+    background: linear-gradient(to top, rgb(84, 90, 107, 0.9), rgb(41, 45, 54, 0.9));
     left: 200px; /* Adjust as needed */
     top: 0;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 13px;
 }
 
 .sub-dropdown:hover .sub-dropdown-content {
