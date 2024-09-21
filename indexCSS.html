@@ -21,7 +21,38 @@
                 <!--Navigation Links-->
                 <div class="nav-links">
                     <a href="#about">ABOUT US</a>
-                    <a href="#trip-catalog">TRIP CATALOG</a>
+                    <li class="dropdown">
+                        <!-- TRIP CATALOG with dropdown -->
+                        <a href="#" class="dropbtn">TRIP CATALOG</a>
+                        <div class="dropdown-content">
+                            <a href="#">Destination</a>
+                            <a href="#">Transportation</a>
+                            <a href="#">Accommodation</a>
+                            <!-- Sort by Country Dropdown -->
+                            <div class="sub-dropdown">
+                                <a href="#">Sort by Country</a>
+                                <div class="sub-dropdown-content">
+                                    <a href="#">Africa</a>
+                                    <a href="#">Asia</a>
+                                    <a href="#">Europe</a>
+                                    <a href="#">North America</a>
+                                    <a href="#">South America</a>
+                                    <a href="#">Australia</a>
+                                    <a href="#">Antarctica</a>
+                                </div>
+                            </div>
+                            <!-- Sort by Activity Dropdown -->
+                            <div class="sub-dropdown">
+                                <a href="#">Sort by Activity</a>
+                                <div class="sub-dropdown-content">
+                                    <a href="#">Family Tour</a>
+                                    <a href="#">Adventure Tour</a>
+                                    <a href="#">Luxury Tour</a>
+                                    <a href="#">Cultural Tour</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <a href="#tour-review">TOUR REVIEW</a>
                     <a href="#contact">CONTACT US</a>
                 </div>
@@ -79,41 +110,41 @@
         <h1>Popular flights <em><span>near</span></em> you</h1>
         <p>FIND DEALS ON DOMESTIC AND INTERNATIONAL FLIGHTS</p>
 
-        <div class="gallery">
-
-            <div class="popular-flights-imgs">
-                <a href="">
-                    <img src="assets/imgs/Canada 1.jpg" alt="">
-                </a>
-                <h5>Doha to Canada</h5>
-                <p>25 Sept - 2 Oct • Round Trip</p> 
-            </div>
+        <div class="gallery-container">
     
-            <div class="popular-flights-imgs">
-                <a href="">
-                    <img src="assets/imgs/Canada 1.jpg" alt="">
-                </a>
-                <h5>Doha to Canada</h5>
-                <p>25 Sept - 2 Oct • Round Trip</p> 
-            </div>
+            <div class="gallery">
+                <!-- First Image -->
+                <div class="gallery-item">
+                    <img src="assets/imgs/Canada-1.jpg" alt="Doha to New York">
+                    <h3>Doha to New York</h3>
+                    <p>25 Sept - 2 Oct • Round Trip</p>
+                </div>
     
-            <div class="popular-flights-imgs">
-                <a href="">
-                    <img src="assets/imgs/Canada 1.jpg" alt="">
-                </a>
-                <h5>Doha to Canada</h5>
-                <p>25 Sept - 2 Oct • Round Trip</p> 
-            </div>
+                <!-- Second Image -->
+                <div class="gallery-item">
+                    <img src="assets/imgs/pexels-eberhardgross-572897.jpg" alt="Paris to London">
+                    <h3>Paris to London</h3>
+                    <p>1 Oct - 7 Oct • Round Trip</p>
+                </div>
     
-            <div class="popular-flights-imgs">
-                <a href="">
-                    <img src="assets/imgs/Canada 1.jpg" alt="">
-                </a>
-                <h5>Doha to Canada</h5>
-                <p>25 Sept - 2 Oct • Round Trip</p> 
+                <!-- Third Image -->
+                <div class="gallery-item">
+                    <img src="assets/imgs/pexels-satoshi-4058530.jpg" alt="Sydney to Tokyo">
+                    <h3>Sydney to Tokyo</h3>
+                    <p>12 Oct - 19 Oct • Round Trip</p>
+                </div>
+    
+                <!-- Fourth Image -->
+                <div class="gallery-item">
+                    <img src="assets/imgs/pexels-eberhardgross-572897.jpg" alt="Dubai to Singapore">
+                    <h3>Dubai to Singapore</h3>
+                    <p>5 Nov - 12 Nov • Round Trip</p>
+                </div>
             </div>
-
         </div>
+            
+   
+          
     </div>
 
 
